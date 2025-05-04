@@ -1,16 +1,45 @@
-# xylophone_flutter
+🎼 Xylophone Flutter App
+A simple musical app that plays xylophone sounds when you tap colorful keys.
 
-A new Flutter project.
+Features
+7 color-coded keys (Red to Purple)
 
-## Getting Started
+Plays different notes for each key
 
-This project is a starting point for a Flutter application.
+Clean rectangular button design
 
-A few resources to get you started if this is your first Flutter project:
+Works on Android & iOS
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+How to Run
+Clone repo:
+git clone git remote add origin https://github.com/alisaqibh1/xylophone-app.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Install dependencies:
+flutter pub get
+
+Run the app:
+flutter run
+
+Technical Details
+Packages Used: audioplayers ^6.4.0
+
+Flutter Version: 3.29.3+
+
+Code Structure:
+
+main.dart - Contains all app logic
+
+assets/ - Stores audio files (note1.mp3 to note7.mp3)
+
+Screenshot
+App Screenshot 
+![image](https://github.com/user-attachments/assets/1b9e4603-52c6-4534-a11d-daeee9a092a6)
+
+
+License
+MIT License - Free to use and modify
+
+Made with ❤️ using Flutter
+
+GitHub stars
+Star the repo if you like it!
